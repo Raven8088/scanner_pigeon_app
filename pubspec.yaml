@@ -1,0 +1,49 @@
+name: sacanner_pigeon_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  pigeon: ^25.1.0
+  mobile_scanner: ^6.0.7
+  bloc: ^9.0.0
+  google_fonts: ^6.2.1
+  permission_handler: ^11.4.0
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.0
+  flutter_localized_locales: ^2.0.5
+  flutter_intl: ^0.0.1
+  flutter_localizations:
+    sdk: flutter
+  sqflite: ^2.4.1
+  flutter_svg: ^2.0.17
+  lottie: ^3.3.1
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.4
+  sqflite_common_ffi: ^2.3.4+4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/png/
+    - assets/images/svg/
+    - assets/lotties/
+    - assets/icon/
+flutter_intl:
+  enabled: true
+  class_name: S
